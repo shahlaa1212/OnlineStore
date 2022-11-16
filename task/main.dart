@@ -25,7 +25,7 @@ main(){
   int? chooseCategories = int.parse(stdin.readLineSync()!);
 
     if(chooseCategories >= 5)
-    throw Exception("This Choose No Found In Categories");
+    print("This Choose No Found In Categories");
   else
     print(chooseCategories);
 
