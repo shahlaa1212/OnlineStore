@@ -25,26 +25,26 @@ main(){
   int? chooseCategories = int.parse(stdin.readLineSync()!);
 
     if(chooseCategories >= 5)
-    print("This Choose No Found In Categories");
+    throw Exception("This Choose No Found In Categories");
   else
     print(chooseCategories);
 
   switch (chooseCategories){
     case 1:
-      b.inputCategories();
-      b.printInfoCategories();
+      b.inputInfoCategory();
+      b.printInfoCategory();
       break;
     case 2:
-      e.inputCategories();
-      e.printInfoCategories();
+      e.inputInfoCategory();
+      e.printInfoCategory();
       break;
     case 3:
-      s.inputCategories();
-      s.printInfoCategories();
+      s.inputInfoCategory();
+      s.printInfoCategory();
       break;
     case 4:
-      m.inputCategories();
-      m.printInfoCategories();
+      m.inputInfoCategory();
+      m.printInfoCategory();
       break;
     }
 

@@ -6,7 +6,7 @@ class ContainCategories{
   late double price;
   late String? name;
 
-  void inputCategories(){
+  void inputInfoCategory(){
     print('Enter The Id:');
     id = int.parse(stdin.readLineSync()!);
 
@@ -20,7 +20,7 @@ class ContainCategories{
     name = stdin.readLineSync()!;
   }
 
-  void printInfoCategories(){
+  void printInfoCategory(){
     print("id: $id | Title: $title | Price: $price | Author: $name");
   }
 
