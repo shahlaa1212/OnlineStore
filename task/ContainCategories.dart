@@ -20,8 +20,7 @@ class ContainCategories{
     name = stdin.readLineSync()!;
   }
 
-  void printInfoCategory(){
+   void printInfoCategory() =>
     print("id: $id | Title: $title | Price: $price | Author: $name");
-  }
 
 }
